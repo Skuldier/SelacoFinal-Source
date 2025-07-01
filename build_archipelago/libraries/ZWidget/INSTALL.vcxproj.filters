@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\6aafe79cad880e61e312e80aa8bdf1f3\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13AEBBDA-1D54-3F13-85B6-890E75C4085E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

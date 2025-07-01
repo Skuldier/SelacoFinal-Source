@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB998E79-DE7E-3393-BF24-B61CF7F5654A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>re2c</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">re2c.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">re2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">re2c.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">re2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">re2c.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">re2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">re2c.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">re2c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRTDBG_MAP_ALLOC;_DEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRTDBG_MAP_ALLOC;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/Debug/re2c.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/Debug/re2c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /opt:ref /opt:icf /nodefaultlib:msvcrt</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/Release/re2c.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/Release/re2c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <TerminalServerAware>true</TerminalServerAware>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /opt:ref /opt:icf /nodefaultlib:msvcrt</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/MinSizeRel/re2c.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/MinSizeRel/re2c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <TerminalServerAware>true</TerminalServerAware>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /opt:ref /opt:icf /nodefaultlib:msvcrt</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/RelWithDebInfo/re2c.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/RelWithDebInfo/re2c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <TerminalServerAware>true</TerminalServerAware>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/tools/re2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/tools/re2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/tools/re2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/tools/re2c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CheckTypeSize.cmake;C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\re2c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\bitmap.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\emit.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\go.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\indent.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\input_api.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\label.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\output.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\print.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\msg.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\opt.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\warn.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\globals.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\compile.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\rule_rank.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\code.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\extop.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\input.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\loc.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\parser.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\rules.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\scanner.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\spec.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\unescape.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\y.tab.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\allocate.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\attribute.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\c99_stdint.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\counter.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\forbid_copy.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\free_list.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\local_increment.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\ord_hash_set.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\range.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\s_to_n32_unsafe.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\smart_ptr.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\static_assert.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\u32lim.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\uniq_vector.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\bitmap.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\emit_action.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\emit_dfa.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\label.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\go_construct.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\go_destruct.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\go_emit.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\go_used_labels.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\input_api.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\output.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\codegen\print.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\msg.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\opt.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\parse_opts.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\conf\warn.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\nfa\calc_size.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\nfa\nfa.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\nfa\split.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\adfa\adfa.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\adfa\prepare.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\dfa\determinization.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\dfa\fillpoints.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\dfa\minimization.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\display.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\enc.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\range_suffix.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf8\utf8_regexp.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf8\utf8_range.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf8\utf8.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf16\utf16_regexp.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf16\utf16.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\encoding\utf16\utf16_range.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\fixed_length.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\regexp\regexp.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\compile.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\rule_rank.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\control_flow.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\generate_code.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\generate_data.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\match_empty.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\maxlen.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\skeleton.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\unreachable.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\ir\skeleton\way.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\main.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\code.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\input.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\lex.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\lex_conf.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\parser.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\scanner.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\parse\unescape.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\s_to_n32_unsafe.cc" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\tools\re2c\src\util\range.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\ZERO_CHECK.vcxproj">
+      <Project>{8DD58DF7-66D8-3860-9317-855D69361EC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

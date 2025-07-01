@@ -1,6 +1,6 @@
 #include "ap_state.h"
 #include <fstream>
-#include <nlohmann/json.hpp>
+#include "../dependencies/archipelago_fixes.h"
 
 namespace Archipelago {
 

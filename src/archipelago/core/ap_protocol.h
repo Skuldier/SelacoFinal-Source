@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ap_types.h"
-#include <nlohmann/json.hpp>
+#include "../dependencies/archipelago_fixes.h"
 #include <functional>
 
 namespace Archipelago {

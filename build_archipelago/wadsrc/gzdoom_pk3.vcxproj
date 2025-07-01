@@ -1,0 +1,1052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE0EBBB5-F4DC-3E3A-89B0-3C10408374BA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>gzdoom_pk3</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\419487c6288d212b8f27957ed3b0ace8\gzdoom.pk3.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../gzdoom.pk3</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\tools\zipdir\Debug\zipdir.exe -udf C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/static
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/Debug/gzdoom.pk3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\zipdir\Debug\zipdir.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../gzdoom.pk3</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\tools\zipdir\Release\zipdir.exe -udf C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/static
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/Release/gzdoom.pk3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\zipdir\Release\zipdir.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../gzdoom.pk3</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\tools\zipdir\MinSizeRel\zipdir.exe -udf C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/static
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/MinSizeRel/gzdoom.pk3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\zipdir\MinSizeRel\zipdir.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../gzdoom.pk3</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\tools\zipdir\RelWithDebInfo\zipdir.exe -udf C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/static
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/gzdoom.pk3 C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/RelWithDebInfo/gzdoom.pk3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\zipdir\RelWithDebInfo\zipdir.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\c6ebf607d927f221f195f950ce5d1f75\gzdoom_pk3.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/zipdir/Debug/zipdir.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/zipdir/Release/zipdir.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/zipdir/MinSizeRel/zipdir.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/zipdir/RelWithDebInfo/zipdir.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\gzdoom.pk3;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/wadsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\animdefs.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\compatibility.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\b@ckdrop.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\crashlog.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dbigfont.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dog sprite.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgact.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgatk.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgdth.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgpain.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgsit.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\icebrk1a.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\icedth1.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\maparrows.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\newconsolefont.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\railgf1.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\rsmk.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\sgrn.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\decaldef.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\commonbinds.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\defbinds.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\leftbinds.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\origbinds.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\filter\doom.id.doom1\after_iwad\sndinfo.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fontdefs.txt">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0000.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0100.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0390.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0400.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0490.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\font.inf">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\indexfont\0030.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\indexfont\font.inf">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\gllight.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\glpart.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\glpart2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\mirror.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\-badpatc.lmp">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\artibox.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\b@ckdrop.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bal7scr1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bal7scr2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfglite1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfglite2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfgscrc1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfgscrc2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\blast1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsmear1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsmear2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat3.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat4.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat5.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat6.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat7.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbalscr1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbalscr2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbowmark.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chexcurs.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip3.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip4.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip5.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\clerface.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cursor.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\doomcurs.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\fiteface.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\hamoback.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\herecurs.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\hexncurs.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgeml1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgeml2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgemr1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgemr2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_d.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_h.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_s.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_x.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\mageface.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\plasma1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\plasma2.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\readyico.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\scorch1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\selectbo.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stfbany.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys6.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys7.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys8.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stpbany.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\strfcurs.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\twirl.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\wislash.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb1.imgz">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb2.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb3.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb4.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb5.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb6.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb7.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs1.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs2.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs3.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs4.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs5.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs6.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs7.imgz">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\iwadinfo.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.0">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.csv">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.def">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\lmacros.csv">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\arrow.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\dagger.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\ddtarrow.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\key.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\ravenkey.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\common.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\conversationids.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\mindefaults.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\menudef.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\menudef.zsimple">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\netnotch.dat">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\newconsolefont.hex">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\notch.dat">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\reverbs.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sbarinfo.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\burn.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fogboundary.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultlight.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultmat.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultmat2.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_normal.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_notexture.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_paletted.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_pbr.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_spec.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp1.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp2.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp3.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_wavex.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_jagged.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_noise.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smooth.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smoothnoise.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smoothtranslucent.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_software.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_standard.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_swirly.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\main.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\main.vp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_nolight.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_normal.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_pbr.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_specular.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\stencil.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\bloomcombine.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\bloomextract.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\blur.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\colormap.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\depthblur.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposureaverage.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposurecombine.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposureextract.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\fxaa.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\lensdistortion.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\lineardepth.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_checker3d.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_column3d.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_row3d.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\screenquad.vp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\shadowmap.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\ssao.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\ssaocombine.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\tonemap.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\Uniform usage notes.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\burn.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fogboundary.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultlight.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultmat.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultmat2.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_normal.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_notexture.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_paletted.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_pbr.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_spec.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp1.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp2.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp3.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_wavex.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_jagged.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_noise.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smooth.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smoothnoise.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smoothtranslucent.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_software.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_standard.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_swirly.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\main.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\main.vp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\material_nolight.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\material_normal.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\stencil.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\pp\present.fp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\pp\screenquad.vp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sndinfo.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sndseq.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\dsempty.lmp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\dssecret.flac">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\icebrk1a.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\icedth1.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\railgf1.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark1.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark2.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark3.ogg">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\spaldoom.lmp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\spalhtic.lmp">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA1.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA2A8.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA3A7.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA4A6.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA5.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\amrka0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\iceca0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecb0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecc0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecd0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\pista0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmka0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkb0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkc0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkd0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmke0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\spkra0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgla0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlglb0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlglc0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgld0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgle0.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tnt1a0.lmp">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\unkna0.png">
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\unknb0.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\teaminfo.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\terrain.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textcolors.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textures.txt">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textures\-noflat-.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\things.h.txt">
+    </None>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\banner.png">
+    </Image>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSans-Regular.ttf">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSansArmenian-Regular.ttf">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSansGeorgian-Regular.ttf">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\OFL.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\x11r6rgb.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xg.wopn">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xhairs.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\base.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\defines.i">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\doom.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\doom_base.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\eternity.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\heretic.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\heretic_base.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\strife.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\strife_base.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zbigfont.lmp">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\actions.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\actor.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\attacks.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\checks.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\doom\doomplayer.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\interaction.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\ammo.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\armor.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\health.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\inv_misc.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\inventory.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\powerups.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\stateprovider.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\weaponpiece.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\weapons.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory_util.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\mbf21.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\morph.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_cheat.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_inventory.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_morph.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\blood.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\botstuff.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\bridge.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\camera.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\corona.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\debris.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\decal.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\dynlights.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\fastprojectile.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\fountain.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\hatetarget.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\ice.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\itemeffects.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\mapmarker.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\movingcamera.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\randomspawner.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\secrettrigger.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\sectoraction.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\setcolor.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\sharedmisc.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\skies.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\soundenvironment.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\soundsequence.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\spark.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\specialspot.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\splashes.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\teleport.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\waterzone.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\compatibility.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\constants.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\destructible.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\doombase.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\base.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\dictionary.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\dynarrays.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\inputevents.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\maps.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ppshader.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\screenjob.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\service.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\colorpickermenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\custommessagebox.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\imagescroller.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\joystickmenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\listmenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\listmenuitems.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\loadsavemenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menucustomize.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menuitembase.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\messagebox.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\optionmenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\optionmenuitems.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\reverbedit.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\anyoralloption.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\menu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\query.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\searchfield.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\textentermenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\statusbar\statusbarcore.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\events.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\level_compatibility.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\level_postprocessor.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\mapdata.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\particledefinition.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\scriptutil\scriptutil.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\sounddata.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\intermission.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\doommenus.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\newplayermenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playercontrols.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playerdisplay.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playermenu.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\readthis.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\alt_hud.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\sbarinfowrapper.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\statusbar.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\visualthinker.zs">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\zscript_license.txt">
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\ZERO_CHECK.vcxproj">
+      <Project>{8DD58DF7-66D8-3860-9317-855D69361EC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\src\zdoom.vcxproj">
+      <Project>{6AC7207B-8D30-3D63-8A88-D5EA98C12777}</Project>
+      <Name>zdoom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\tools\zipdir\zipdir.vcxproj">
+      <Project>{37B63587-779D-3DBE-AE51-C692E823FA81}</Project>
+      <Name>zipdir</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

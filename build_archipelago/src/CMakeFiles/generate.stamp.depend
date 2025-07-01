@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/arch.c
+C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake/FindZMusic.cmake
+C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake/precompiled_headers.cmake
+C:/Users/Skuldier/Documents/SelacoFinal-Source/src/CMakeLists.txt

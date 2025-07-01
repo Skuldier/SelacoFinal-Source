@@ -1,0 +1,1636 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 7/1/2025 12:47:02 PM.
+      
+      Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/4.0.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 7/1/2025 12:47:03 PM.
+      
+      Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/4.0.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qdses8"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qdses8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qdses8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46205.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:03 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qdses8\\cmTC_46205.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_46205.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qdses8\\Debug\\".
+          Creating directory "cmTC_46205.dir\\Debug\\cmTC_46205.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46205.dir\\Debug\\cmTC_46205.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_46205.dir\\Debug\\cmTC_46205.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46205.dir\\Debug\\\\" /Fd"cmTC_46205.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46205.dir\\Debug\\\\" /Fd"cmTC_46205.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qdses8\\Debug\\cmTC_46205.exe" /INCREMENTAL /ILK:"cmTC_46205.dir\\Debug\\cmTC_46205.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qdses8/Debug/cmTC_46205.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qdses8/Debug/cmTC_46205.lib" /MACHINE:X64  /machine:x64 cmTC_46205.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_46205.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qdses8\\Debug\\cmTC_46205.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_46205.dir\\Debug\\cmTC_46205.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46205.dir\\Debug\\cmTC_46205.tlog\\cmTC_46205.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qdses8\\cmTC_46205.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b24s2o"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b24s2o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b24s2o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69f9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:04 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b24s2o\\cmTC_69f9f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_69f9f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b24s2o\\Debug\\".
+          Creating directory "cmTC_69f9f.dir\\Debug\\cmTC_69f9f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_69f9f.dir\\Debug\\cmTC_69f9f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_69f9f.dir\\Debug\\cmTC_69f9f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_69f9f.dir\\Debug\\\\" /Fd"cmTC_69f9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_69f9f.dir\\Debug\\\\" /Fd"cmTC_69f9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b24s2o\\Debug\\cmTC_69f9f.exe" /INCREMENTAL /ILK:"cmTC_69f9f.dir\\Debug\\cmTC_69f9f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b24s2o/Debug/cmTC_69f9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b24s2o/Debug/cmTC_69f9f.lib" /MACHINE:X64  /machine:x64 cmTC_69f9f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_69f9f.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b24s2o\\Debug\\cmTC_69f9f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_69f9f.dir\\Debug\\cmTC_69f9f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_69f9f.dir\\Debug\\cmTC_69f9f.tlog\\cmTC_69f9f.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b24s2o\\cmTC_69f9f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/TargetArch.cmake:141 (try_run)"
+      - "CMakeLists.txt:221 (target_architecture)"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fb97f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:05 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_fb97f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fb97f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_fb97f.dir\\Debug\\cmTC_fb97f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fb97f.dir\\Debug\\cmTC_fb97f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fb97f.dir\\Debug\\cmTC_fb97f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb97f.dir\\Debug\\\\" /Fd"cmTC_fb97f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb97f.dir\\Debug\\\\" /Fd"cmTC_fb97f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c"
+          arch.c
+        C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c(29,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_fb97f.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_fb97f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_fb97f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c(29,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_fb97f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.21
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "libraries/lzma/CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cm4cbo"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cm4cbo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS -DZ7_PPMD_SUPPORT"
+      CMAKE_C_FLAGS_DEBUG: "/O2 /Ob2 /DNDEBUG /Oy /Oi /GS-"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cm4cbo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67441.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:05 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\cmTC_67441.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_67441.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\Debug\\".
+          Creating directory "cmTC_67441.dir\\Debug\\cmTC_67441.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_67441.dir\\Debug\\cmTC_67441.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_67441.dir\\Debug\\cmTC_67441.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D NDEBUG /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_67441.dir\\Debug\\\\" /Fd"cmTC_67441.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D NDEBUG /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_67441.dir\\Debug\\\\" /Fd"cmTC_67441.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\src.c"
+          src.c
+        C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\cmTC_67441.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\cmTC_67441.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\cmTC_67441.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cm4cbo\\cmTC_67441.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.19
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "libraries/lzma/CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-uukgt9"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-uukgt9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS -DZ7_PPMD_SUPPORT"
+      CMAKE_C_FLAGS_DEBUG: "/O2 /Ob2 /DNDEBUG /Oy /Oi /GS-"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-uukgt9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4f49d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:05 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\cmTC_4f49d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4f49d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\Debug\\".
+          Creating directory "cmTC_4f49d.dir\\Debug\\cmTC_4f49d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4f49d.dir\\Debug\\cmTC_4f49d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4f49d.dir\\Debug\\cmTC_4f49d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D CHECK_FUNCTION_EXISTS=pthread_create /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_4f49d.dir\\Debug\\\\" /Fd"cmTC_4f49d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D CHECK_FUNCTION_EXISTS=pthread_create /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_4f49d.dir\\Debug\\\\" /Fd"cmTC_4f49d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\Debug\\cmTC_4f49d.exe" /INCREMENTAL /ILK:"cmTC_4f49d.dir\\Debug\\cmTC_4f49d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-uukgt9/Debug/cmTC_4f49d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-uukgt9/Debug/cmTC_4f49d.lib" /MACHINE:X64  /machine:x64 cmTC_4f49d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\cmTC_4f49d.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\cmTC_4f49d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\cmTC_4f49d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-uukgt9\\cmTC_4f49d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "libraries/lzma/CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b52aht"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b52aht"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS -DZ7_PPMD_SUPPORT"
+      CMAKE_C_FLAGS_DEBUG: "/O2 /Ob2 /DNDEBUG /Oy /Oi /GS-"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b52aht'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e2e17.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:06 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\cmTC_e2e17.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e2e17.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\Debug\\".
+          Creating directory "cmTC_e2e17.dir\\Debug\\cmTC_e2e17.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e2e17.dir\\Debug\\cmTC_e2e17.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e2e17.dir\\Debug\\cmTC_e2e17.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D CHECK_FUNCTION_EXISTS=pthread_create /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e2e17.dir\\Debug\\\\" /Fd"cmTC_e2e17.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /W1 /WX- /diagnostics:column /O2 /Ob2 /Oi /Oy /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D Z7_PPMD_SUPPORT /D CHECK_FUNCTION_EXISTS=pthread_create /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e2e17.dir\\Debug\\\\" /Fd"cmTC_e2e17.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\Debug\\cmTC_e2e17.exe" /INCREMENTAL /ILK:"cmTC_e2e17.dir\\Debug\\cmTC_e2e17.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b52aht/Debug/cmTC_e2e17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-b52aht/Debug/cmTC_e2e17.lib" /MACHINE:X64  /machine:x64 cmTC_e2e17.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\cmTC_e2e17.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\cmTC_e2e17.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\cmTC_e2e17.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-b52aht\\cmTC_e2e17.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "tools/re2c/CMakeLists.txt:19 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-kd35g2"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-kd35g2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-kd35g2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc2da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:06 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\cmTC_dc2da.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dc2da.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\Debug\\".
+          Creating directory "cmTC_dc2da.dir\\Debug\\cmTC_dc2da.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dc2da.dir\\Debug\\cmTC_dc2da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dc2da.dir\\Debug\\cmTC_dc2da.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strdup /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_dc2da.dir\\Debug\\\\" /Fd"cmTC_dc2da.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strdup /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_dc2da.dir\\Debug\\\\" /Fd"cmTC_dc2da.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\Debug\\cmTC_dc2da.exe" /INCREMENTAL /ILK:"cmTC_dc2da.dir\\Debug\\cmTC_dc2da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-kd35g2/Debug/cmTC_dc2da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-kd35g2/Debug/cmTC_dc2da.lib" /MACHINE:X64  /machine:x64 cmTC_dc2da.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_dc2da.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\Debug\\cmTC_dc2da.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_dc2da.dir\\Debug\\cmTC_dc2da.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dc2da.dir\\Debug\\cmTC_dc2da.tlog\\cmTC_dc2da.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-kd35g2\\cmTC_dc2da.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "tools/re2c/CMakeLists.txt:20 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strndup"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-fdpuf1"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-fdpuf1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRNDUP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-fdpuf1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4f67.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:06 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4f67.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\Debug\\".
+          Creating directory "cmTC_e4f67.dir\\Debug\\cmTC_e4f67.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4f67.dir\\Debug\\cmTC_e4f67.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4f67.dir\\Debug\\cmTC_e4f67.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strndup /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e4f67.dir\\Debug\\\\" /Fd"cmTC_e4f67.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strndup /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e4f67.dir\\Debug\\\\" /Fd"cmTC_e4f67.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\Debug\\cmTC_e4f67.exe" /INCREMENTAL /ILK:"cmTC_e4f67.dir\\Debug\\cmTC_e4f67.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-fdpuf1/Debug/cmTC_e4f67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-fdpuf1/Debug/cmTC_e4f67.lib" /MACHINE:X64  /machine:x64 cmTC_e4f67.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol strndup referenced in function main [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj]
+        C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\Debug\\cmTC_e4f67.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol strndup referenced in function main [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj]
+          C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\Debug\\cmTC_e4f67.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-fdpuf1\\cmTC_e4f67.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:318 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-6u4osy"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-6u4osy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-6u4osy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eaa59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:07 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\cmTC_eaa59.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_eaa59.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\Debug\\".
+          Creating directory "cmTC_eaa59.dir\\Debug\\cmTC_eaa59.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_eaa59.dir\\Debug\\cmTC_eaa59.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eaa59.dir\\Debug\\cmTC_eaa59.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_eaa59.dir\\Debug\\\\" /Fd"cmTC_eaa59.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_eaa59.dir\\Debug\\\\" /Fd"cmTC_eaa59.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\Debug\\cmTC_eaa59.exe" /INCREMENTAL /ILK:"cmTC_eaa59.dir\\Debug\\cmTC_eaa59.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-6u4osy/Debug/cmTC_eaa59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-6u4osy/Debug/cmTC_eaa59.lib" /MACHINE:X64  /machine:x64 cmTC_eaa59.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_eaa59.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\Debug\\cmTC_eaa59.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_eaa59.dir\\Debug\\cmTC_eaa59.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eaa59.dir\\Debug\\cmTC_eaa59.tlog\\cmTC_eaa59.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-6u4osy\\cmTC_eaa59.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:319 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-dk5jcc"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-dk5jcc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-dk5jcc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b5d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:07 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\cmTC_2b5d0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2b5d0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\Debug\\".
+          Creating directory "cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_2b5d0.dir\\Debug\\\\" /Fd"cmTC_2b5d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_2b5d0.dir\\Debug\\\\" /Fd"cmTC_2b5d0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\Debug\\cmTC_2b5d0.exe" /INCREMENTAL /ILK:"cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-dk5jcc/Debug/cmTC_2b5d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-dk5jcc/Debug/cmTC_2b5d0.lib" /MACHINE:X64  /machine:x64 cmTC_2b5d0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2b5d0.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\Debug\\cmTC_2b5d0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2b5d0.dir\\Debug\\cmTC_2b5d0.tlog\\cmTC_2b5d0.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-dk5jcc\\cmTC_2b5d0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:320 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-mloyws"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-mloyws"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-mloyws'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef2af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:08 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\cmTC_ef2af.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ef2af.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\Debug\\".
+          Creating directory "cmTC_ef2af.dir\\Debug\\cmTC_ef2af.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ef2af.dir\\Debug\\cmTC_ef2af.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ef2af.dir\\Debug\\cmTC_ef2af.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_ef2af.dir\\Debug\\\\" /Fd"cmTC_ef2af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_ef2af.dir\\Debug\\\\" /Fd"cmTC_ef2af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\Debug\\cmTC_ef2af.exe" /INCREMENTAL /ILK:"cmTC_ef2af.dir\\Debug\\cmTC_ef2af.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-mloyws/Debug/cmTC_ef2af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-mloyws/Debug/cmTC_ef2af.lib" /MACHINE:X64  /machine:x64 cmTC_ef2af.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ef2af.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\Debug\\cmTC_ef2af.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ef2af.dir\\Debug\\cmTC_ef2af.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ef2af.dir\\Debug\\cmTC_ef2af.tlog\\cmTC_ef2af.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-mloyws\\cmTC_ef2af.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0i8"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-9pv7lh"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-9pv7lh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_0I8"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-9pv7lh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4bbf1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:08 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\cmTC_4bbf1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4bbf1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\Debug\\".
+          Creating directory "cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_4bbf1.dir\\Debug\\\\" /Fd"cmTC_4bbf1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\SIZEOF_0I8.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_4bbf1.dir\\Debug\\\\" /Fd"cmTC_4bbf1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\SIZEOF_0I8.c"
+          SIZEOF_0I8.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\Debug\\cmTC_4bbf1.exe" /INCREMENTAL /ILK:"cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-9pv7lh/Debug/cmTC_4bbf1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-9pv7lh/Debug/cmTC_4bbf1.lib" /MACHINE:X64  /machine:x64 cmTC_4bbf1.dir\\Debug\\SIZEOF_0I8.obj
+          cmTC_4bbf1.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\Debug\\cmTC_4bbf1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4bbf1.dir\\Debug\\cmTC_4bbf1.tlog\\cmTC_4bbf1.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-9pv7lh\\cmTC_4bbf1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:23 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0l"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-oa68rd"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-oa68rd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_0L"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-oa68rd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c1dee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:09 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\cmTC_c1dee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c1dee.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\Debug\\".
+          Creating directory "cmTC_c1dee.dir\\Debug\\cmTC_c1dee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c1dee.dir\\Debug\\cmTC_c1dee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c1dee.dir\\Debug\\cmTC_c1dee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_c1dee.dir\\Debug\\\\" /Fd"cmTC_c1dee.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\SIZEOF_0L.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_c1dee.dir\\Debug\\\\" /Fd"cmTC_c1dee.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\SIZEOF_0L.c"
+          SIZEOF_0L.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\Debug\\cmTC_c1dee.exe" /INCREMENTAL /ILK:"cmTC_c1dee.dir\\Debug\\cmTC_c1dee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-oa68rd/Debug/cmTC_c1dee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-oa68rd/Debug/cmTC_c1dee.lib" /MACHINE:X64  /machine:x64 cmTC_c1dee.dir\\Debug\\SIZEOF_0L.obj
+          cmTC_c1dee.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\Debug\\cmTC_c1dee.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c1dee.dir\\Debug\\cmTC_c1dee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c1dee.dir\\Debug\\cmTC_c1dee.tlog\\cmTC_c1dee.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-oa68rd\\cmTC_c1dee.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:24 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0ll"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-4w32ax"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-4w32ax"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_0LL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-4w32ax'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a62e9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:09 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\cmTC_a62e9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a62e9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\Debug\\".
+          Creating directory "cmTC_a62e9.dir\\Debug\\cmTC_a62e9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a62e9.dir\\Debug\\cmTC_a62e9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a62e9.dir\\Debug\\cmTC_a62e9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_a62e9.dir\\Debug\\\\" /Fd"cmTC_a62e9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\SIZEOF_0LL.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_a62e9.dir\\Debug\\\\" /Fd"cmTC_a62e9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\SIZEOF_0LL.c"
+          SIZEOF_0LL.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\Debug\\cmTC_a62e9.exe" /INCREMENTAL /ILK:"cmTC_a62e9.dir\\Debug\\cmTC_a62e9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-4w32ax/Debug/cmTC_a62e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-4w32ax/Debug/cmTC_a62e9.lib" /MACHINE:X64  /machine:x64 cmTC_a62e9.dir\\Debug\\SIZEOF_0LL.obj
+          cmTC_a62e9.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\Debug\\cmTC_a62e9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a62e9.dir\\Debug\\cmTC_a62e9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a62e9.dir\\Debug\\cmTC_a62e9.tlog\\cmTC_a62e9.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-4w32ax\\cmTC_a62e9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:25 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of char"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qr50oy"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qr50oy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qr50oy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5832.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:10 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\cmTC_e5832.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e5832.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\Debug\\".
+          Creating directory "cmTC_e5832.dir\\Debug\\cmTC_e5832.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e5832.dir\\Debug\\cmTC_e5832.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e5832.dir\\Debug\\cmTC_e5832.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e5832.dir\\Debug\\\\" /Fd"cmTC_e5832.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\SIZEOF_CHAR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_e5832.dir\\Debug\\\\" /Fd"cmTC_e5832.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\SIZEOF_CHAR.c"
+          SIZEOF_CHAR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\Debug\\cmTC_e5832.exe" /INCREMENTAL /ILK:"cmTC_e5832.dir\\Debug\\cmTC_e5832.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qr50oy/Debug/cmTC_e5832.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-qr50oy/Debug/cmTC_e5832.lib" /MACHINE:X64  /machine:x64 cmTC_e5832.dir\\Debug\\SIZEOF_CHAR.obj
+          cmTC_e5832.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\Debug\\cmTC_e5832.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e5832.dir\\Debug\\cmTC_e5832.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e5832.dir\\Debug\\cmTC_e5832.tlog\\cmTC_e5832.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-qr50oy\\cmTC_e5832.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:26 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hr790g"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hr790g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hr790g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27627.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:11 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\cmTC_27627.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_27627.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\Debug\\".
+          Creating directory "cmTC_27627.dir\\Debug\\cmTC_27627.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_27627.dir\\Debug\\cmTC_27627.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27627.dir\\Debug\\cmTC_27627.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_27627.dir\\Debug\\\\" /Fd"cmTC_27627.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\SIZEOF_SHORT.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_27627.dir\\Debug\\\\" /Fd"cmTC_27627.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\SIZEOF_SHORT.c"
+          SIZEOF_SHORT.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\Debug\\cmTC_27627.exe" /INCREMENTAL /ILK:"cmTC_27627.dir\\Debug\\cmTC_27627.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hr790g/Debug/cmTC_27627.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hr790g/Debug/cmTC_27627.lib" /MACHINE:X64  /machine:x64 cmTC_27627.dir\\Debug\\SIZEOF_SHORT.obj
+          cmTC_27627.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\Debug\\cmTC_27627.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_27627.dir\\Debug\\cmTC_27627.tlog\\unsuccessfulbuild".
+          Touching "cmTC_27627.dir\\Debug\\cmTC_27627.tlog\\cmTC_27627.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hr790g\\cmTC_27627.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:27 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-romti8"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-romti8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-romti8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83b51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:11 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\cmTC_83b51.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_83b51.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\Debug\\".
+          Creating directory "cmTC_83b51.dir\\Debug\\cmTC_83b51.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_83b51.dir\\Debug\\cmTC_83b51.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_83b51.dir\\Debug\\cmTC_83b51.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_83b51.dir\\Debug\\\\" /Fd"cmTC_83b51.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\SIZEOF_INT.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_83b51.dir\\Debug\\\\" /Fd"cmTC_83b51.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\SIZEOF_INT.c"
+          SIZEOF_INT.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\Debug\\cmTC_83b51.exe" /INCREMENTAL /ILK:"cmTC_83b51.dir\\Debug\\cmTC_83b51.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-romti8/Debug/cmTC_83b51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-romti8/Debug/cmTC_83b51.lib" /MACHINE:X64  /machine:x64 cmTC_83b51.dir\\Debug\\SIZEOF_INT.obj
+          cmTC_83b51.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\Debug\\cmTC_83b51.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_83b51.dir\\Debug\\cmTC_83b51.tlog\\unsuccessfulbuild".
+          Touching "cmTC_83b51.dir\\Debug\\cmTC_83b51.tlog\\cmTC_83b51.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-romti8\\cmTC_83b51.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:28 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-j5m787"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-j5m787"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-j5m787'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ec0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:12 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\cmTC_6ec0f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6ec0f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\Debug\\".
+          Creating directory "cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_6ec0f.dir\\Debug\\\\" /Fd"cmTC_6ec0f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\SIZEOF_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_6ec0f.dir\\Debug\\\\" /Fd"cmTC_6ec0f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\SIZEOF_LONG.c"
+          SIZEOF_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\Debug\\cmTC_6ec0f.exe" /INCREMENTAL /ILK:"cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-j5m787/Debug/cmTC_6ec0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-j5m787/Debug/cmTC_6ec0f.lib" /MACHINE:X64  /machine:x64 cmTC_6ec0f.dir\\Debug\\SIZEOF_LONG.obj
+          cmTC_6ec0f.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\Debug\\cmTC_6ec0f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6ec0f.dir\\Debug\\cmTC_6ec0f.tlog\\cmTC_6ec0f.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-j5m787\\cmTC_6ec0f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:29 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cv15b4"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cv15b4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cv15b4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97c39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:13 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\cmTC_97c39.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_97c39.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\Debug\\".
+          Creating directory "cmTC_97c39.dir\\Debug\\cmTC_97c39.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_97c39.dir\\Debug\\cmTC_97c39.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97c39.dir\\Debug\\cmTC_97c39.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_97c39.dir\\Debug\\\\" /Fd"cmTC_97c39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\SIZEOF_LONG_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_97c39.dir\\Debug\\\\" /Fd"cmTC_97c39.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\SIZEOF_LONG_LONG.c"
+          SIZEOF_LONG_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\Debug\\cmTC_97c39.exe" /INCREMENTAL /ILK:"cmTC_97c39.dir\\Debug\\cmTC_97c39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cv15b4/Debug/cmTC_97c39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-cv15b4/Debug/cmTC_97c39.lib" /MACHINE:X64  /machine:x64 cmTC_97c39.dir\\Debug\\SIZEOF_LONG_LONG.obj
+          cmTC_97c39.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\Debug\\cmTC_97c39.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_97c39.dir\\Debug\\cmTC_97c39.tlog\\unsuccessfulbuild".
+          Touching "cmTC_97c39.dir\\Debug\\cmTC_97c39.tlog\\cmTC_97c39.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-cv15b4\\cmTC_97c39.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:30 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of void *"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-r78qnh"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-r78qnh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_P"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-r78qnh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d88f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:13 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\cmTC_3d88f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3d88f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\Debug\\".
+          Creating directory "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_3d88f.dir\\Debug\\\\" /Fd"cmTC_3d88f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\SIZEOF_VOID_P.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_3d88f.dir\\Debug\\\\" /Fd"cmTC_3d88f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\SIZEOF_VOID_P.c"
+          SIZEOF_VOID_P.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\Debug\\cmTC_3d88f.exe" /INCREMENTAL /ILK:"cmTC_3d88f.dir\\Debug\\cmTC_3d88f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-r78qnh/Debug/cmTC_3d88f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-r78qnh/Debug/cmTC_3d88f.lib" /MACHINE:X64  /machine:x64 cmTC_3d88f.dir\\Debug\\SIZEOF_VOID_P.obj
+          cmTC_3d88f.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\Debug\\cmTC_3d88f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\cmTC_3d88f.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-r78qnh\\cmTC_3d88f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:212 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckTypeSize.cmake:339 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:31 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of __int64"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hc0sov"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hc0sov"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF___INT_64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hc0sov'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95bfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:14 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\cmTC_95bfc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_95bfc.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\Debug\\".
+          Creating directory "cmTC_95bfc.dir\\Debug\\cmTC_95bfc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_95bfc.dir\\Debug\\cmTC_95bfc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_95bfc.dir\\Debug\\cmTC_95bfc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_95bfc.dir\\Debug\\\\" /Fd"cmTC_95bfc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\SIZEOF___INT_64.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_95bfc.dir\\Debug\\\\" /Fd"cmTC_95bfc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\SIZEOF___INT_64.c"
+          SIZEOF___INT_64.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\Debug\\cmTC_95bfc.exe" /INCREMENTAL /ILK:"cmTC_95bfc.dir\\Debug\\cmTC_95bfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hc0sov/Debug/cmTC_95bfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-hc0sov/Debug/cmTC_95bfc.lib" /MACHINE:X64  /machine:x64 cmTC_95bfc.dir\\Debug\\SIZEOF___INT_64.obj
+          cmTC_95bfc.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\Debug\\cmTC_95bfc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_95bfc.dir\\Debug\\cmTC_95bfc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_95bfc.dir\\Debug\\cmTC_95bfc.tlog\\cmTC_95bfc.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-hc0sov\\cmTC_95bfc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/TargetArch.cmake:141 (try_run)"
+      - "src/CMakeLists.txt:35 (target_architecture)"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9de7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:15 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_d9de7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d9de7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_d9de7.dir\\Debug\\cmTC_d9de7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d9de7.dir\\Debug\\cmTC_d9de7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d9de7.dir\\Debug\\cmTC_d9de7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_d9de7.dir\\Debug\\\\" /Fd"cmTC_d9de7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_d9de7.dir\\Debug\\\\" /Fd"cmTC_d9de7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c"
+          arch.c
+        C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c(29,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_d9de7.vcxproj]
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_d9de7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_d9de7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\arch.c(29,1): error C1189: #error:  cmake_ARCH x86_64 [C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeTmp\\cmTC_d9de7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.20
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "src/CMakeLists.txt:178 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test HAVE_PARALLEL_FOR"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-ljqp16"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-ljqp16"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_PARALLEL_FOR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-ljqp16'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d3787.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:15 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\cmTC_d3787.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d3787.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\Debug\\".
+          Creating directory "cmTC_d3787.dir\\Debug\\cmTC_d3787.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d3787.dir\\Debug\\cmTC_d3787.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d3787.dir\\Debug\\cmTC_d3787.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D HAVE_PARALLEL_FOR /D "CMAKE_INTDIR=\\"Debug\\"" /GF /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /permissive- /Fo"cmTC_d3787.dir\\Debug\\\\" /Fd"cmTC_d3787.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _CRTDBG_MAP_ALLOC /D _DEBUG /D HAVE_PARALLEL_FOR /D "CMAKE_INTDIR=\\"Debug\\"" /GF /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /permissive- /Fo"cmTC_d3787.dir\\Debug\\\\" /Fd"cmTC_d3787.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\Debug\\cmTC_d3787.exe" /INCREMENTAL /ILK:"cmTC_d3787.dir\\Debug\\cmTC_d3787.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-ljqp16/Debug/cmTC_d3787.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-ljqp16/Debug/cmTC_d3787.lib" /MACHINE:X64  /machine:x64 cmTC_d3787.dir\\Debug\\src.obj
+          cmTC_d3787.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\Debug\\cmTC_d3787.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d3787.dir\\Debug\\cmTC_d3787.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d3787.dir\\Debug\\cmTC_d3787.tlog\\cmTC_d3787.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-ljqp16\\cmTC_d3787.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:201 (CHECK_FUNCTION_EXISTS)"
+      - "src/CMakeLists.txt:291 (require_stricmp)"
+    checks:
+      - "Looking for stricmp"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-k4v1ir"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-k4v1ir"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "STRICMP_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-k4v1ir'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd808.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:16 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\cmTC_cd808.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cd808.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\Debug\\".
+          Creating directory "cmTC_cd808.dir\\Debug\\cmTC_cd808.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cd808.dir\\Debug\\cmTC_cd808.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cd808.dir\\Debug\\cmTC_cd808.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=stricmp /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_cd808.dir\\Debug\\\\" /Fd"cmTC_cd808.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=stricmp /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_cd808.dir\\Debug\\\\" /Fd"cmTC_cd808.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\Debug\\cmTC_cd808.exe" /INCREMENTAL /ILK:"cmTC_cd808.dir\\Debug\\cmTC_cd808.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-k4v1ir/Debug/cmTC_cd808.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-k4v1ir/Debug/cmTC_cd808.lib" /MACHINE:X64  /machine:x64 cmTC_cd808.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_cd808.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\Debug\\cmTC_cd808.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cd808.dir\\Debug\\cmTC_cd808.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cd808.dir\\Debug\\cmTC_cd808.tlog\\cmTC_cd808.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-k4v1ir\\cmTC_cd808.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:208 (CHECK_FUNCTION_EXISTS)"
+      - "src/CMakeLists.txt:292 (require_strnicmp)"
+    checks:
+      - "Looking for strnicmp"
+    directories:
+      source: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-zux3q4"
+      binary: "C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-zux3q4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /GF /Gy /permissive- /utf-8 /DHAVE_VULKAN /DHAVE_GLES2 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0600 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS /D_CRT_NONSTDC_NO_WARNINGS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /D _CRTDBG_MAP_ALLOC -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Skuldier/Documents/SelacoFinal-Source/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "STRNICMP_EXISTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-zux3q4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_34ade.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 7/1/2025 12:47:16 PM.
+        
+        Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\cmTC_34ade.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_34ade.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\Debug\\".
+          Creating directory "cmTC_34ade.dir\\Debug\\cmTC_34ade.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_34ade.dir\\Debug\\cmTC_34ade.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_34ade.dir\\Debug\\cmTC_34ade.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strnicmp /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_34ade.dir\\Debug\\\\" /Fd"cmTC_34ade.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35209 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D HAVE_VULKAN /D HAVE_GLES2 /D UNICODE /D _UNICODE /D _WIN32_WINNT=0x0600 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strnicmp /D _CRTDBG_MAP_ALLOC /D _DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /GF /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_34ade.dir\\Debug\\\\" /Fd"cmTC_34ade.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /utf-8 "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\Debug\\cmTC_34ade.exe" /INCREMENTAL /ILK:"cmTC_34ade.dir\\Debug\\cmTC_34ade.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-zux3q4/Debug/cmTC_34ade.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/CMakeFiles/CMakeScratch/TryCompile-zux3q4/Debug/cmTC_34ade.lib" /MACHINE:X64  /machine:x64 cmTC_34ade.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_34ade.vcxproj -> C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\Debug\\cmTC_34ade.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_34ade.dir\\Debug\\cmTC_34ade.tlog\\unsuccessfulbuild".
+          Touching "cmTC_34ade.dir\\Debug\\cmTC_34ade.tlog\\cmTC_34ade.lastbuildstate".
+        Done Building Project "C:\\Users\\Skuldier\\Documents\\SelacoFinal-Source\\build_archipelago\\CMakeFiles\\CMakeScratch\\TryCompile-zux3q4\\cmTC_34ade.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+...

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../core/ap_types.h"
+#include <vector>
 
 namespace Archipelago {
 

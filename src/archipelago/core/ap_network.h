@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #include "ap_types.h"
 #include <memory>
@@ -7,6 +7,10 @@
 #include <queue>
 #include <mutex>
 #include <condition_variable>
+
+#include "../dependencies/archipelago_fixes.h"`n`n`#include "../dependencies/archipelago_fixes.h"
+
+#include "../dependencies/archipelago_fixes.h"
 
 // Forward declaration of APClient from apclientpp
 class APClient;

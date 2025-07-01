@@ -1,7 +1,9 @@
 #include "ap_network.h"
-#include "apclient.hpp"
-#include "apuuid.hpp"
-#include <nlohmann/json.hpp>
+#include <chrono>
+#include <tuple>
+#include "../dependencies/apclient.hpp"
+#include "../dependencies/apuuid.hpp"
+#include "../dependencies/archipelago_fixes.h"
 #include "common/console/c_console.h"
 
 namespace Archipelago {

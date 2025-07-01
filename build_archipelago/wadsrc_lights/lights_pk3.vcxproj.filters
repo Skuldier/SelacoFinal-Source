@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\419487c6288d212b8f27957ed3b0ace8\lights.pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\8aa00ba518f525f0476dc4579675b68c\lights_pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\doom.freedoom\gldefs.txt">
+      <Filter>Source Files\filter\doom.freedoom</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\doom.id\gldefs.txt">
+      <Filter>Source Files\filter\doom.id</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\hacx.hacx1\gldefs.txt">
+      <Filter>Source Files\filter\hacx.hacx1</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\harmony\gldefs.txt">
+      <Filter>Source Files\filter\harmony</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\heretic\gldefs.txt">
+      <Filter>Source Files\filter\heretic</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\hexen\gldefs.txt">
+      <Filter>Source Files\filter\hexen</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_lights\static\filter\strife\gldefs.txt">
+      <Filter>Source Files\filter\strife</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc_lights\CMakeFiles\lights_pk3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13AEBBDA-1D54-3F13-85B6-890E75C4085E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFDEE660-9D7D-33E8-B767-7DC0EB941D7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter">
+      <UniqueIdentifier>{0DA0AD1D-3F1F-3DE3-A966-563C9A0E45AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\doom.freedoom">
+      <UniqueIdentifier>{9EA86E85-BD0E-369C-AB51-A894FE9EDD25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\doom.id">
+      <UniqueIdentifier>{719EFA49-706C-3DDA-AF8A-36C94B932C77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\hacx.hacx1">
+      <UniqueIdentifier>{2889877D-52C6-3CE5-A776-2ADE83C39A8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\harmony">
+      <UniqueIdentifier>{6587532E-3BCB-3BDC-A2CD-DC348EB1A7D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\heretic">
+      <UniqueIdentifier>{C0B25CD3-CC4B-31AA-B853-199A059CAACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\hexen">
+      <UniqueIdentifier>{635BE740-C101-30FB-B1B0-A4070E2E2DC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\strife">
+      <UniqueIdentifier>{DF1DFD15-E708-3154-8B6A-35BC8D29A785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\419487c6288d212b8f27957ed3b0ace8\brightmaps.pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\48b57e46d3b912469c232dbad4bbac4c\brightmaps_pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BON2B0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BON2C0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BON2D0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2A6C4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2A7C3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2A8C2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2B6D4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2B7D3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOS2B8D2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSA1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSA2A8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSA3A7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSA4A6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSA5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSB1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSB2B8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSB3B7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSB4B6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSB5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSC1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSC2C8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSC3C7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSC4C6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSC5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSD1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSD2D8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSD3D7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSD4D6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSD5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSE8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSF8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSG8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSH8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSI0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSJ0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSK0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSL0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BOSSM0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIG1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIG2G8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIH1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIH2H8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIH3H7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIH4H6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\BSPIH5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CELLA0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CELPA0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSE8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CPOSF8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRF8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRJ0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRK0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRL0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRM0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRN0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\CYBRO0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTG1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTG2G8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTH1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTH2H8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTH3H7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTH4H6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FATTH5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FCANA0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FCANB0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\FCANC0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADC1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADC2C8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADC3C7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADD1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADD2D8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\HEADD3D7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PAINF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PAINF2F8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PAINF3F7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PLAYF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PLAYF2F8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PLAYF3F7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PLAYF4F6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\PLAYF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSE1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSE2E8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSE3E7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSF2F8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSF3F7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSF4F6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\POSSF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SKELJ8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SMRTA0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SMRTB0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SMRTC0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SMRTD0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDG1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDG2G8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDH1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDH2H8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDH3H7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDL0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDM0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDN0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDO0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDP0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDQ0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPIDR0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSE1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSE2E8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSE3E7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSF1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSF2F8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSF3F7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSF4F6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\SPOSF5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TREDA0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TREDB0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TREDC0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TREDD0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TbluB0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\TbluC0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\sswvg0.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileg8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileh8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilei8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilej8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilek8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilel8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilem8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilen8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vileo8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep1.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep2.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep3.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep4.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep5.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep6.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep7.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\doom\vilep8.png">
+      <Filter>Source Files\brightmaps\doom</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\BEASI1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\BEASI2I8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\BEASI3I7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CHDLA0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CHDLB0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CHDLC0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKI0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKJ0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKK0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKL0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKM0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\CLNKN0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXD8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXE8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\IMPXF8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHB1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHB2B8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHB3B7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHC0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHD0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHE0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHF0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHG0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\LICHH0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\PLAYF1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\PLAYF2F8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\PLAYF3F7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\PLAYF4F6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHA0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHB0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHC0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHD0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHE0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHF0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHG0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SDTHH0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2R8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2S8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T2.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T3.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T4.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\SOR2T8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\VLCOE0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDC1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDC2C8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDC3C7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDC4C6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDC5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDD1.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDD2D8.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDD3D7.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDD4D6.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDD5.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDF0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDG0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDH0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDI0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDJ0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\heretic\WZRDK0.png">
+      <Filter>Source Files\brightmaps\heretic</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CDLRA0.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CDLRB0.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CDLRC0.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CENTF1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CENTF2.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\CENTF8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\ICEYG1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\ICEYG2G8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\ICEYG3G7.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\ICEYG4G6.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\ICEYG5.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF2.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF3.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF4.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF5.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF6.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF7.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\MAGEF8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHE1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHE2E8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHE3E7.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHE4E6.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHE5.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHF1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHF2F8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHF3F7.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHF4F6.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHF5.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHG1.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHG2G8.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHG3G7.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHG4G6.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\hexen\WRTHG5.png">
+      <Filter>Source Files\brightmaps\hexen</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\MLDRE8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDG8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDI0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDJ0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDK0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDL0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDM0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PGRDN0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\PRGRO0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\RBB3A0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\RBB3B0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1J0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1K0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1L0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1M0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1N0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1O0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB1P0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2F8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2G0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2H0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2I0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2J0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2K0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2L0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2M0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2N0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB2O0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3F8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3H8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I5.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3I8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J1.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J2.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J3.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J4.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J6.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J7.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3J8.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3M0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3N0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3O0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3P0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3Q0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3T0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3U0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3V0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3W0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3X0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3Y0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3Z0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\ROB3^0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\SEWRH0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKP0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKQ0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKR0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKS0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKT0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKU0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKV0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKW0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKX0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKY0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\brightmaps\strife\STLKZ0.png">
+      <Filter>Source Files\brightmaps\strife</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\filter\doom.id\gldefs.bm">
+      <Filter>Source Files\filter\doom.id</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\filter\heretic\gldefs.bm">
+      <Filter>Source Files\filter\heretic</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\filter\hexen\gldefs.bm">
+      <Filter>Source Files\filter\hexen</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc_bm\static\filter\strife\gldefs.bm">
+      <Filter>Source Files\filter\strife</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc_bm\CMakeFiles\brightmaps_pk3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13AEBBDA-1D54-3F13-85B6-890E75C4085E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFDEE660-9D7D-33E8-B767-7DC0EB941D7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\brightmaps">
+      <UniqueIdentifier>{DE411563-5958-3CFD-B87B-8E41A25AC8FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\brightmaps\doom">
+      <UniqueIdentifier>{8239B166-40B5-34B9-933F-28BDA0BA5D6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\brightmaps\heretic">
+      <UniqueIdentifier>{8C4314AF-5688-3250-8B51-FD473A083EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\brightmaps\hexen">
+      <UniqueIdentifier>{B93F95BA-E6B7-32AC-9A1E-4B25D1B0D4D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\brightmaps\strife">
+      <UniqueIdentifier>{0A178AB6-1AE7-3610-941B-57EF7EF5F46C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter">
+      <UniqueIdentifier>{0DA0AD1D-3F1F-3DE3-A966-563C9A0E45AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\doom.id">
+      <UniqueIdentifier>{719EFA49-706C-3DDA-AF8A-36C94B932C77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\heretic">
+      <UniqueIdentifier>{C0B25CD3-CC4B-31AA-B853-199A059CAACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\hexen">
+      <UniqueIdentifier>{635BE740-C101-30FB-B1B0-A4070E2E2DC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\strife">
+      <UniqueIdentifier>{DF1DFD15-E708-3154-8B6A-35BC8D29A785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZVulkan/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZWidget/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/webp/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/discordrpc/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/discordrpc/src/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/asmjit/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/bzip2/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/lzma/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/miniz/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/re2c/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/lemon/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/tools/zipdir/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc_bm/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/wadsrc_lights/cmake_install.cmake",
+		"C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

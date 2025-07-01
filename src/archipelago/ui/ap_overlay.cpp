@@ -1,6 +1,6 @@
 #include "ap_overlay.h"
 #include "common/2d/v_draw.h"
-#include "common/2d/v_text.h"
+#include "common/fonts/v_text.h"
 #include "common/fonts/v_font.h"
 #include "g_game.h"
 

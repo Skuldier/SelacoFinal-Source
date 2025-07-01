@@ -806,6 +806,10 @@ if(ENABLE_ARCHIPELAGO)
     # Archipelago-specific definitions
     add_definitions(-DARCHIPELAGO_ENABLED=1)
     add_definitions(-DASIO_STANDALONE=1)
+    add_definitions(-DNLOHMANN_JSON_NAMESPACE_NO_VERSION=1)
+    
+    # FIX: Disable JSON versioned namespace to avoid conflicts
+    add_definitions(-DNLOHMANN_JSON_NAMESPACE_NO_VERSION=1)
     
     # Platform-specific configurations
     if(WIN32)
@@ -824,6 +828,8 @@ if(ENABLE_ARCHIPELAGO)
         archipelago/core/ap_network.cpp
         archipelago/core/ap_protocol.cpp
         archipelago/core/ap_state.cpp
+        archipelago/core/ap_network_impl.cpp
+        archipelago/core/ap_manager_impl.cpp
         archipelago/game/selaco_integration.cpp
         archipelago/ui/ap_overlay.cpp
     )

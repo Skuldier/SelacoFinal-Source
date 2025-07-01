@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\canvas.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\font.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\image.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\span_layout.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\timer.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\widget.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\utf8reader.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\pathfill.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\truetypefont.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\picopng\picopng.cpp">
+      <Filter>src\core\picopng</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\nanosvg\nanosvg.cpp">
+      <Filter>src\core\nanosvg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\lineedit\lineedit.cpp">
+      <Filter>src\widgets\lineedit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\mainwindow\mainwindow.cpp">
+      <Filter>src\widgets\mainwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\menubar\menubar.cpp">
+      <Filter>src\widgets\menubar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\scrollbar\scrollbar.cpp">
+      <Filter>src\widgets\scrollbar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\statusbar\statusbar.cpp">
+      <Filter>src\widgets\statusbar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\textedit\textedit.cpp">
+      <Filter>src\widgets\textedit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\toolbar\toolbar.cpp">
+      <Filter>src\widgets\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\toolbar\toolbarbutton.cpp">
+      <Filter>src\widgets\toolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\imagebox\imagebox.cpp">
+      <Filter>src\widgets\imagebox</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\textlabel\textlabel.cpp">
+      <Filter>src\widgets\textlabel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\pushbutton\pushbutton.cpp">
+      <Filter>src\widgets\pushbutton</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\checkboxlabel\checkboxlabel.cpp">
+      <Filter>src\widgets\checkboxlabel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\listview\listview.cpp">
+      <Filter>src\widgets\listview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\widgets\tabwidget\tabwidget.cpp">
+      <Filter>src\widgets\tabwidget</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\window\window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\window\win32\win32window.cpp">
+      <Filter>src\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\truetypefont.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\picopng\picopng.h">
+      <Filter>src\core\picopng</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\nanosvg\nanosvg.h">
+      <Filter>src\core\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\core\nanosvg\nanosvgrast.h">
+      <Filter>src\core\nanosvg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\src\window\win32\win32window.h">
+      <Filter>src\window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\canvas.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\colorf.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\font.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\image.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\rect.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\pathfill.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\span_layout.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\timer.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\widget.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\utf8reader.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\core\resourcedata.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\lineedit\lineedit.h">
+      <Filter>include\widgets\lineedit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\mainwindow\mainwindow.h">
+      <Filter>include\widgets\mainwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\menubar\menubar.h">
+      <Filter>include\widgets\menubar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\scrollbar\scrollbar.h">
+      <Filter>include\widgets\scrollbar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\statusbar\statusbar.h">
+      <Filter>include\widgets\statusbar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\textedit\textedit.h">
+      <Filter>include\widgets\textedit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\toolbar\toolbar.h">
+      <Filter>include\widgets\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\toolbar\toolbarbutton.h">
+      <Filter>include\widgets\toolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\imagebox\imagebox.h">
+      <Filter>include\widgets\imagebox</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\textlabel\textlabel.h">
+      <Filter>include\widgets\textlabel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\pushbutton\pushbutton.h">
+      <Filter>include\widgets\pushbutton</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\checkboxlabel\checkboxlabel.h">
+      <Filter>include\widgets\checkboxlabel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\listview\listview.h">
+      <Filter>include\widgets\listview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\widgets\tabwidget\tabwidget.h">
+      <Filter>include\widgets\tabwidget</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\include\zwidget\window\window.h">
+      <Filter>include\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZWidget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{075BECF4-4F3E-39DB-9ED4-2ACEF2E6E866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{71851E86-11E6-358D-A496-C1AC7AAF6257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets">
+      <UniqueIdentifier>{D09E17D4-B650-3438-BEDE-240F54AA7AEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\checkboxlabel">
+      <UniqueIdentifier>{42304206-738D-3AFA-AA3A-3E7377F5718B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\imagebox">
+      <UniqueIdentifier>{871811CA-07FE-3647-B4A4-084DEAFAC595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\lineedit">
+      <UniqueIdentifier>{D6DCE28B-3007-30DE-992D-7F2FB7C65720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\listview">
+      <UniqueIdentifier>{0559C394-58E1-30AB-9BE6-EB6D6529A88F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\mainwindow">
+      <UniqueIdentifier>{EC91926C-4468-39B4-9846-96C609B9A966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\menubar">
+      <UniqueIdentifier>{ABC4C423-9C38-3A4B-AFAA-3D26686A8202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\pushbutton">
+      <UniqueIdentifier>{B1B46756-3F3E-3458-BEFC-1FA479BC5947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\scrollbar">
+      <UniqueIdentifier>{60657CA0-5DFB-3809-A508-9269850BCEBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\statusbar">
+      <UniqueIdentifier>{5A47D702-3DFD-31BA-8167-9FDCA8C854E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\tabwidget">
+      <UniqueIdentifier>{82A9C521-478E-3F17-B8BC-241B3170FC41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\textedit">
+      <UniqueIdentifier>{A38F9B88-F9CE-3713-AC4C-4BC685FAF28D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\textlabel">
+      <UniqueIdentifier>{324D6109-8C5E-39FC-8788-458ABC7C1ECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\widgets\toolbar">
+      <UniqueIdentifier>{5B001743-591E-3941-B401-837A6DF298FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\window">
+      <UniqueIdentifier>{9B9D9076-921D-3EA8-B238-654BDA7D529C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{25FEB503-F6B8-320F-A5BC-65A7BD12D6A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{D90C6620-E741-3A60-A065-77B39A17233F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\nanosvg">
+      <UniqueIdentifier>{E00C1D13-E21F-31F3-8754-3BE9022D2E54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\picopng">
+      <UniqueIdentifier>{23155A6C-AD05-34EA-B3C0-504607A466CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets">
+      <UniqueIdentifier>{111C5145-09D1-326D-8669-64DED367CC08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\checkboxlabel">
+      <UniqueIdentifier>{1F1875BD-7E14-3921-B3A4-E42B72091E42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\imagebox">
+      <UniqueIdentifier>{887FCB32-A4DA-3980-B331-0E8D9C1CE555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\lineedit">
+      <UniqueIdentifier>{FE45BF72-FBFF-3AFA-A2D3-9318ED1BD06D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\listview">
+      <UniqueIdentifier>{6E350BAD-3A4C-387A-925D-A3FFC7E2A77D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\mainwindow">
+      <UniqueIdentifier>{FA1E626C-6302-3DAE-807A-133942744E9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\menubar">
+      <UniqueIdentifier>{AF16E323-8EAB-3920-B4D4-5949EE26C5CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\pushbutton">
+      <UniqueIdentifier>{B95754C2-1944-3A62-802B-7657FEE388FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\scrollbar">
+      <UniqueIdentifier>{BABD4C93-E91F-3DF8-859D-9D342C3AAE8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\statusbar">
+      <UniqueIdentifier>{6542650F-49F1-3C66-84DF-1B42C3331D68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\tabwidget">
+      <UniqueIdentifier>{807EBA7C-9372-376B-8290-78BA242F4B0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\textedit">
+      <UniqueIdentifier>{1CA6A07E-1B86-392A-A23A-8C4286D9E1D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\textlabel">
+      <UniqueIdentifier>{F688BA21-2330-390D-A449-D66284C27893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\toolbar">
+      <UniqueIdentifier>{687BC367-DCFB-388A-83C5-850540FFE67C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\window">
+      <UniqueIdentifier>{080C1CA5-4223-3293-8426-B47E34487ED9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

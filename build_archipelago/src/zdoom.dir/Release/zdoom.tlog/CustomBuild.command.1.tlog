@@ -1,0 +1,40 @@
+^C:\USERS\SKULDIER\DOCUMENTS\SELACOFINAL-SOURCE\BUILD_ARCHIPELAGO\CMAKEFILES\EE594EF50E86DAC3371974FA58B9B72D\SC_MAN_SCANNER.H.RULE
+setlocal
+..\tools\re2c\Release\re2c.exe --no-generation-date -s -o C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/src/sc_man_scanner.h C:/Users/Skuldier/Documents/SelacoFinal-Source/src/common/engine/sc_man_scanner.re
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SKULDIER\DOCUMENTS\SELACOFINAL-SOURCE\BUILD_ARCHIPELAGO\CMAKEFILES\EE594EF50E86DAC3371974FA58B9B72D\XLAT_PARSER.C.RULE
+setlocal
+..\tools\lemon\Release\lemon.exe -CC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/src C:/Users/Skuldier/Documents/SelacoFinal-Source/src/gamedata/xlat/xlat_parser.y
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SKULDIER\DOCUMENTS\SELACOFINAL-SOURCE\BUILD_ARCHIPELAGO\CMAKEFILES\EE594EF50E86DAC3371974FA58B9B72D\ZCC-PARSE.C.RULE
+setlocal
+..\tools\lemon\Release\lemon.exe -CC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/src C:/Users/Skuldier/Documents/SelacoFinal-Source/src/common/scripting/frontend/zcc-parse.lemon
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SKULDIER\DOCUMENTS\SELACOFINAL-SOURCE\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,4 +1,5 @@
 #include "ap_protocol.h"
+#include "../dependencies/archipelago_fixes.h"
 #include <sstream>
 
 namespace Archipelago {

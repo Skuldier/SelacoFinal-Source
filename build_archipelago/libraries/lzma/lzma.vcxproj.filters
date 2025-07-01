@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zAlloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zArcIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zBuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zBuf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zCrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zCrcOpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\7zStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Bcj2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Bcj2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Bra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Bra86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\CpuArch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Delta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\DllSecur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzFind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzFindMt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzFindOpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Lzma2Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Lzma2DecMt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Lzma2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzmaDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzmaEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\LzmaLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\MtCoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\MtDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Ppmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Ppmd7Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Ppmd7Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Sha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Sha256Opt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\SwapBytes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\Xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\XzCrc64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\XzCrc64Opt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\XzDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\XzEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\C\XzIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\lzma\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFDEE660-9D7D-33E8-B767-7DC0EB941D7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

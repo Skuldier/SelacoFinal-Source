@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include "ap_types.h"
+#include "../dependencies/archipelago_fixes.h"
 #include <memory>
 #include <atomic>
 #include <mutex>

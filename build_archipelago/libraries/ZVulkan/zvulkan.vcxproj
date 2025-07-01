@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A48CD3C3-E9FA-3A87-9F32-51739C8B1E13}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>zvulkan</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zvulkan.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zvulkan</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zvulkan.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zvulkan</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zvulkan.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zvulkan</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zvulkan.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zvulkan</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRTDBG_MAP_ALLOC;_DEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_CRTDBG_MAP_ALLOC;VULKAN_USE_XLIB=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_VULKAN;HAVE_GLES2;UNICODE;_UNICODE;_WIN32_WINNT=0x0600;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG;VULKAN_USE_XLIB=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan;C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/libraries/ZVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZVulkan/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/libraries/ZVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZVulkan/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/libraries/ZVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZVulkan/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Skuldier/Documents/SelacoFinal-Source/libraries/ZVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Skuldier/Documents/SelacoFinal-Source -BC:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago --check-stamp-file C:/Users/Skuldier/Documents/SelacoFinal-Source/build_archipelago/libraries/ZVulkan/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\libraries\ZVulkan\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vulkanbuilders.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vulkandevice.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vulkaninstance.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vulkansurface.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vulkanswapchain.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vk_mem_alloc\vk_mem_alloc.cpp" />
+    <Natvis Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\vk_mem_alloc\vk_mem_alloc.natvis">
+    </Natvis>
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\volk\volk.c" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\SymbolTable.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\propagateNoContraction.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\PoolAlloc.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Intermediate.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\gl_types.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\parseVersions.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\attribute.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Scan.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\iomapper.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\ParseHelper.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\glslang_tab.cpp.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\SymbolTable.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\RemoveTree.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Versions.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\reflection.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\LiveTraverser.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\iomapper.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\intermOut.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Versions.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Initialize.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\linkValidate.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\InfoSink.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Constant.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\IntermTraverse.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\propagateNoContraction.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\glslang_tab.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\ShaderLang.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\Pp.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpTokens.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpAtom.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpContext.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpTokens.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpScanner.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\preprocessor\PpContext.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\attribute.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\localintermediate.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\parseConst.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Initialize.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\limits.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\ParseContextBase.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\RemoveTree.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\ParseHelper.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\Scan.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\reflection.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\ScanContext.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\MachineIndependent\SpirvIntrinsics.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\OSDependent\osinclude.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\GenericCodeGen\Link.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\GenericCodeGen\CodeGen.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Public\ShaderLang.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\ConstantUnion.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\InitializeGlobals.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\Common.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\PoolAlloc.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\arrays.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\ShHandle.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\InfoSink.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\ResourceLimits.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\Types.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\BaseTypes.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\intermediate.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\SpirvIntrinsics.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\Include\build_info.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\Logger.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GlslangToSpv.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SPVRemapper.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GLSL.ext.EXT.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\hex_float.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\doc.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\disassemble.cpp" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SpvPostProcess.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\bitutils.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\InReadableOrder.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GLSL.ext.AMD.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GLSL.ext.NV.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SPVRemapper.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SpvBuilder.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GLSL.ext.KHR.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\disassemble.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SpvBuilder.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GlslangToSpv.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\doc.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SpvTools.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\spvIR.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\Logger.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\SpvTools.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\GLSL.std.450.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\spirv\NonSemanticDebugPrintf.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\OGLCompilersDLL\InitializeDll.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\OGLCompilersDLL\InitializeDll.h" />
+    <ClCompile Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\src\glslang\glslang\OSDependent\Windows\ossource.cpp" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkanbuilders.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkancompatibledevice.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkandevice.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkaninstance.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkanobjects.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkansurface.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vulkanswapchain.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\volk\volk.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\zvulkan\vk_mem_alloc\vk_mem_alloc.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_enum_string_helper.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_icd.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_layer.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_layer_dispatch_table.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_platform.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vk_sdk_platform.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_android.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_beta.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_core.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_directfb.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_fuchsia.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_ggp.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_ios.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_macos.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_metal.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_mir.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_screen.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_vi.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_wayland.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_win32.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_xcb.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_xlib.h" />
+    <ClInclude Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\libraries\ZVulkan\include\vulkan\vulkan_xlib_xrandr.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\ZERO_CHECK.vcxproj">
+      <Project>{8DD58DF7-66D8-3860-9317-855D69361EC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\419487c6288d212b8f27957ed3b0ace8\gzdoom.pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\CMakeFiles\c6ebf607d927f221f195f950ce5d1f75\gzdoom_pk3.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0000.png">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0100.png">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0390.png">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0400.png">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\0490.png">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\indexfont\0030.png">
+      <Filter>Source Files\fonts\indexfont</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\gllight.png">
+      <Filter>Source Files\glstuff</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\glpart.png">
+      <Filter>Source Files\glstuff</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\glpart2.png">
+      <Filter>Source Files\glstuff</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\glstuff\mirror.png">
+      <Filter>Source Files\glstuff</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\artibox.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\b@ckdrop.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bal7scr1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bal7scr2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfglite1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfglite2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfgscrc1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bfgscrc2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\blast1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsmear1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsmear2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat3.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat4.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat5.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat6.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\bsplat7.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbalscr1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbalscr2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cbowmark.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chexcurs.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip3.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip4.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\chip5.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\clerface.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\cursor.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\doomcurs.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\fiteface.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\hamoback.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\herecurs.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\hexncurs.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgeml1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgeml2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgemr1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\invgemr2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_d.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_h.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_s.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\m_back_x.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\mageface.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\plasma1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\plasma2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\readyico.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\scorch1.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\selectbo.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stfbany.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys6.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys7.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stkeys8.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\stpbany.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\strfcurs.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\twirl.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\wislash.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb2.png">
+      <Filter>Source Files\graphics</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA1.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA2A8.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA3A7.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA4A6.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\SGRNA5.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\amrka0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\iceca0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecb0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecc0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\icecd0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\pista0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmka0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkb0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkc0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmkd0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\rsmke0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\spkra0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgla0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlglb0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlglc0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgld0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tlgle0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\unkna0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\unknb0.png">
+      <Filter>Source Files\sprites</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textures\-noflat-.png">
+      <Filter>Source Files\textures</Filter>
+    </Image>
+    <Image Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\banner.png">
+      <Filter>Source Files\widgets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\animdefs.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\compatibility.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\b@ckdrop.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\crashlog.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dbigfont.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dog sprite.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgact.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgatk.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgdth.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgpain.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\dsdgsit.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\icebrk1a.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\icedth1.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\maparrows.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\newconsolefont.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\railgf1.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\rsmk.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\credits\sgrn.txt">
+      <Filter>Source Files\credits</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\decaldef.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\commonbinds.txt">
+      <Filter>Source Files\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\defbinds.txt">
+      <Filter>Source Files\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\leftbinds.txt">
+      <Filter>Source Files\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\engine\origbinds.txt">
+      <Filter>Source Files\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\filter\doom.id.doom1\after_iwad\sndinfo.txt">
+      <Filter>Source Files\filter\doom.id.doom1\after_iwad</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fontdefs.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\consolefont\font.inf">
+      <Filter>Source Files\fonts\consolefont</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\fonts\indexfont\font.inf">
+      <Filter>Source Files\fonts\indexfont</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\-badpatc.lmp">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb1.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb3.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb4.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb5.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb6.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairb7.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs1.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs2.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs3.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs4.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs5.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs6.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\graphics\xhairs7.imgz">
+      <Filter>Source Files\graphics</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\iwadinfo.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.0">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\language.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\lmacros.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\arrow.txt">
+      <Filter>Source Files\maparrows</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\dagger.txt">
+      <Filter>Source Files\maparrows</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\ddtarrow.txt">
+      <Filter>Source Files\maparrows</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\key.txt">
+      <Filter>Source Files\maparrows</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\maparrows\ravenkey.txt">
+      <Filter>Source Files\maparrows</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\common.txt">
+      <Filter>Source Files\mapinfo</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\conversationids.txt">
+      <Filter>Source Files\mapinfo</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\mapinfo\mindefaults.txt">
+      <Filter>Source Files\mapinfo</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\menudef.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\menudef.zsimple">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\netnotch.dat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\newconsolefont.hex">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\notch.dat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\reverbs.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sbarinfo.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\burn.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fogboundary.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultlight.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultmat.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_defaultmat2.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_normal.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_notexture.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_paletted.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_pbr.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_spec.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp1.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp2.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_warp3.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\func_wavex.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_jagged.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_noise.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smooth.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smoothnoise.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_smoothtranslucent.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_software.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_standard.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\fuzz_swirly.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\main.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\main.vp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_nolight.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_normal.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_pbr.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\material_specular.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\glsl\stencil.fp">
+      <Filter>Source Files\shaders\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\bloomcombine.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\bloomextract.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\blur.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\colormap.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\depthblur.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposureaverage.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposurecombine.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\exposureextract.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\fxaa.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\lensdistortion.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\lineardepth.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_checker3d.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_column3d.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\present_row3d.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\screenquad.vp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\shadowmap.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\ssao.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\ssaocombine.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders\pp\tonemap.fp">
+      <Filter>Source Files\shaders\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\Uniform usage notes.txt">
+      <Filter>Source Files\shaders_gles</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\burn.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fogboundary.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultlight.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultmat.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_defaultmat2.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_normal.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_notexture.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_paletted.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_pbr.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_spec.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp1.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp2.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_warp3.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\func_wavex.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_jagged.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_noise.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smooth.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smoothnoise.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_smoothtranslucent.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_software.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_standard.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\fuzz_swirly.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\main.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\main.vp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\material_nolight.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\material_normal.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\glsl\stencil.fp">
+      <Filter>Source Files\shaders_gles\glsl</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\pp\present.fp">
+      <Filter>Source Files\shaders_gles\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\shaders_gles\pp\screenquad.vp">
+      <Filter>Source Files\shaders_gles\pp</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sndinfo.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sndseq.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\dsempty.lmp">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\dssecret.flac">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\icebrk1a.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\icedth1.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\railgf1.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark1.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark2.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sounds\spark3.ogg">
+      <Filter>Source Files\sounds</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\spaldoom.lmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\spalhtic.lmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\sprites\tnt1a0.lmp">
+      <Filter>Source Files\sprites</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\teaminfo.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\terrain.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textcolors.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\textures.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\things.h.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSans-Regular.ttf">
+      <Filter>Source Files\widgets\noto</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSansArmenian-Regular.ttf">
+      <Filter>Source Files\widgets\noto</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\NotoSansGeorgian-Regular.ttf">
+      <Filter>Source Files\widgets\noto</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\widgets\noto\OFL.txt">
+      <Filter>Source Files\widgets\noto</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\x11r6rgb.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xg.wopn">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xhairs.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\base.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\defines.i">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\doom.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\doom_base.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\eternity.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\heretic.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\heretic_base.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\strife.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\xlat\strife_base.txt">
+      <Filter>Source Files\xlat</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zbigfont.lmp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\actions.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\actor.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\attacks.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\checks.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\doom\doomplayer.zs">
+      <Filter>Source Files\zscript\actors\doom</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\interaction.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\ammo.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\armor.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\health.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\inv_misc.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\inventory.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\powerups.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\stateprovider.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\weaponpiece.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory\weapons.zs">
+      <Filter>Source Files\zscript\actors\inventory</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\inventory_util.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\mbf21.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\morph.zs">
+      <Filter>Source Files\zscript\actors</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player.zs">
+      <Filter>Source Files\zscript\actors\player</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_cheat.zs">
+      <Filter>Source Files\zscript\actors\player</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_inventory.zs">
+      <Filter>Source Files\zscript\actors\player</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\player\player_morph.zs">
+      <Filter>Source Files\zscript\actors\player</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\blood.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\botstuff.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\bridge.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\camera.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\corona.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\debris.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\decal.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\dynlights.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\fastprojectile.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\fountain.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\hatetarget.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\ice.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\itemeffects.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\mapmarker.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\movingcamera.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\randomspawner.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\secrettrigger.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\sectoraction.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\setcolor.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\sharedmisc.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\skies.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\soundenvironment.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\soundsequence.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\spark.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\specialspot.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\splashes.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\teleport.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\actors\shared\waterzone.zs">
+      <Filter>Source Files\zscript\actors\shared</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\compatibility.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\constants.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\destructible.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\doombase.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\base.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\dictionary.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\dynarrays.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\inputevents.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\maps.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ppshader.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\screenjob.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\service.zs">
+      <Filter>Source Files\zscript\engine</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\colorpickermenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\custommessagebox.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\imagescroller.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\joystickmenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\listmenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\listmenuitems.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\loadsavemenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menucustomize.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\menuitembase.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\messagebox.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\optionmenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\optionmenuitems.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\reverbedit.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\anyoralloption.zs">
+      <Filter>Source Files\zscript\engine\ui\menu\search</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\menu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu\search</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\query.zs">
+      <Filter>Source Files\zscript\engine\ui\menu\search</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\search\searchfield.zs">
+      <Filter>Source Files\zscript\engine\ui\menu\search</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\menu\textentermenu.zs">
+      <Filter>Source Files\zscript\engine\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\engine\ui\statusbar\statusbarcore.zs">
+      <Filter>Source Files\zscript\engine\ui\statusbar</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\events.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\level_compatibility.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\level_postprocessor.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\mapdata.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\particledefinition.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\scriptutil\scriptutil.zs">
+      <Filter>Source Files\zscript\scriptutil</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\sounddata.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\intermission.zs">
+      <Filter>Source Files\zscript\ui</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\doommenus.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\newplayermenu.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playercontrols.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playerdisplay.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\playermenu.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\menu\readthis.zs">
+      <Filter>Source Files\zscript\ui\menu</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\alt_hud.zs">
+      <Filter>Source Files\zscript\ui\statusbar</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\sbarinfowrapper.zs">
+      <Filter>Source Files\zscript\ui\statusbar</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\ui\statusbar\statusbar.zs">
+      <Filter>Source Files\zscript\ui\statusbar</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\visualthinker.zs">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\wadsrc\static\zscript\zscript_license.txt">
+      <Filter>Source Files\zscript</Filter>
+    </None>
+    <None Include="C:\Users\Skuldier\Documents\SelacoFinal-Source\build_archipelago\wadsrc\CMakeFiles\gzdoom_pk3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13AEBBDA-1D54-3F13-85B6-890E75C4085E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFDEE660-9D7D-33E8-B767-7DC0EB941D7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\credits">
+      <UniqueIdentifier>{8D1C1E25-669D-35CD-A91B-33981463AD24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{11A1AABC-BC5D-3E4F-8B7D-1074EF83F47C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter">
+      <UniqueIdentifier>{0DA0AD1D-3F1F-3DE3-A966-563C9A0E45AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\doom.id.doom1">
+      <UniqueIdentifier>{33792AA6-EB7D-31C1-9396-B08AC56B7E93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter\doom.id.doom1\after_iwad">
+      <UniqueIdentifier>{0EB3D6AE-9EE4-34A9-8CCB-ADDCFDA09885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fonts">
+      <UniqueIdentifier>{6DB97E25-8B78-38EA-B729-A3E7F9AE3F40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fonts\consolefont">
+      <UniqueIdentifier>{7FEE7676-B7A7-35B6-8FBF-C91E60680C95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fonts\indexfont">
+      <UniqueIdentifier>{C7CCF903-56FF-3C65-9263-3C17BC6B6246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glstuff">
+      <UniqueIdentifier>{2EA6025B-77AC-392E-A503-590793BE26D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{DDD0C216-E0EB-362F-A264-A236C410E8DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\maparrows">
+      <UniqueIdentifier>{29284E4F-0DA2-3FA9-A8A8-E74B838EFEE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mapinfo">
+      <UniqueIdentifier>{35176879-D6F9-38AF-8AC5-B8B50CD402E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{02EB3786-154D-3502-AD08-EF6D0BD517DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\glsl">
+      <UniqueIdentifier>{A05CD6CB-B27C-3C97-97C5-CC67B9751C6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders\pp">
+      <UniqueIdentifier>{F97A61E5-6E38-32DC-81C7-B1A08EE2CD2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders_gles">
+      <UniqueIdentifier>{7A6B4405-5309-3B20-A8FE-C39B8B5EB6FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders_gles\glsl">
+      <UniqueIdentifier>{0E8206C1-B040-3A42-AE0A-292C4B069D18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders_gles\pp">
+      <UniqueIdentifier>{D8CF7A34-FBF5-3D80-8C7D-40CFDD4DBA55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sounds">
+      <UniqueIdentifier>{FEB37733-DEFD-327C-96A0-2DCE1FBDA2B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sprites">
+      <UniqueIdentifier>{317D61C1-8DAA-3851-8D90-8D7972059786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textures">
+      <UniqueIdentifier>{72052218-9F14-3839-BBA3-61EF06CF3460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widgets">
+      <UniqueIdentifier>{4AD0034B-5D36-3941-B0F0-EC05659D8355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widgets\noto">
+      <UniqueIdentifier>{4C0E9AF4-D240-3211-8D65-B67A415F4E8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xlat">
+      <UniqueIdentifier>{38924C08-C6D6-3848-82CD-7F02C93202E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript">
+      <UniqueIdentifier>{9CA15502-4C27-339B-8053-E658CD0861F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\actors">
+      <UniqueIdentifier>{2BDE84F9-C2D1-3232-8C51-CAA7CE2630EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\actors\doom">
+      <UniqueIdentifier>{D9F7448E-B9E0-368D-9A1F-04DD0EC1775F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\actors\inventory">
+      <UniqueIdentifier>{D1867FCC-3453-3D77-BEBC-CF3DF219B77E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\actors\player">
+      <UniqueIdentifier>{64B6C359-5C39-3A50-9D10-CDF19B3D2B75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\actors\shared">
+      <UniqueIdentifier>{32A9B8CE-4FCC-3D89-AD26-27EC49092732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\engine">
+      <UniqueIdentifier>{A220ED46-3B92-361C-BA0B-B24ACD0AC549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\engine\ui">
+      <UniqueIdentifier>{18B43257-3461-34CE-ABEB-E199467F21A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\engine\ui\menu">
+      <UniqueIdentifier>{49915EF2-EC7A-3146-8BBC-4952816E28A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\engine\ui\menu\search">
+      <UniqueIdentifier>{006145C3-2E71-3CB0-83F2-ED4C3F99A570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\engine\ui\statusbar">
+      <UniqueIdentifier>{FE367E7D-5B00-37E1-920C-771DF315705E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\scriptutil">
+      <UniqueIdentifier>{20C00CEA-EBF9-352F-85CE-C1E464905355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\ui">
+      <UniqueIdentifier>{0BE3C92F-BC27-3176-A919-2F7A55560774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\ui\menu">
+      <UniqueIdentifier>{9EA0CFE6-97B7-39C1-ABDA-55349820114C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zscript\ui\statusbar">
+      <UniqueIdentifier>{938113C6-D2ED-373A-889E-633E1EEC3BDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

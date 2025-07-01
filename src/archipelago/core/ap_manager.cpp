@@ -4,7 +4,7 @@
 #include "ap_protocol.h"
 
 // Include nlohmann/json
-#include <nlohmann/json.hpp>
+#include "../dependencies/archipelago_fixes.h"
 
 // Include Selaco headers
 #include "common/console/c_console.h"
