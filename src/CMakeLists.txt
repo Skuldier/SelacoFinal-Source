@@ -786,7 +786,51 @@ endif()
 
 set (FASTMATH_SOURCES ${FASTMATH_SOURCES})
 
+# =============================================================================
+# Archipelago Integration
+# =============================================================================
+if(ENABLE_ARCHIPELAGO)
+    message(STATUS "🌐 Adding Archipelago support to Selaco...")
+    
+    # Add Archipelago include directories
+    include_directories(
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/asio/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/websocketpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/json/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/valijson/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/wswrap/include
+    )
+    
+    # Archipelago-specific definitions
+    add_definitions(-DARCHIPELAGO_ENABLED=1)
+    add_definitions(-DASIO_STANDALONE=1)
+    
+    # Platform-specific configurations
+    if(WIN32)
+        add_definitions(-D_WIN32_WINNT=0x0601)
+        add_definitions(-DWIN32_LEAN_AND_MEAN)
+        add_definitions(-DNOMINMAX)
+    endif()
+    
+    message(STATUS "✅ Archipelago include paths configured")
+endif()
+
+if(ENABLE_ARCHIPELAGO)
+    # Archipelago source files to be added to PCH_SOURCES
+    set(ARCHIPELAGO_PCH_SOURCES
+        archipelago/core/ap_manager.cpp
+        archipelago/core/ap_network.cpp
+        archipelago/core/ap_protocol.cpp
+        archipelago/core/ap_state.cpp
+        archipelago/game/selaco_integration.cpp
+        archipelago/ui/ap_overlay.cpp
+    )
+endif()
+
 set (PCH_SOURCES
+	${ARCHIPELAGO_PCH_SOURCES}
 	common/thirdparty/statdb.cpp
 	common/thirdparty/richpresence.cpp
 	am_map.cpp
@@ -1272,6 +1316,19 @@ endif()
 
 target_link_libraries( zdoom ${PROJECT_LIBRARIES} lzma ${ZMUSIC_LIBRARIES} )
 
+if(ENABLE_ARCHIPELAGO)
+    # Link additional libraries for Archipelago
+    if(WIN32)
+        target_link_libraries(zdoom ws2_32 crypt32)
+    else()
+        find_package(OpenSSL REQUIRED)
+        find_package(Threads REQUIRED)
+        target_link_libraries(zdoom ${OPENSSL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+    endif()
+    
+    message(STATUS "✅ Archipelago libraries linked")
+endif()
+
 include_directories(
 	BEFORE
 	.
@@ -1543,3 +1600,10 @@ source_group("Launcher" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/launche
 source_group("Versioning" FILES version.h win32/zdoom.rc)
 source_group("Xlat" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/xlat/.+" FILES ${CMAKE_CURRENT_BINARY_DIR}/xlat_parser.c ${CMAKE_CURRENT_BINARY_DIR}/xlat_parser.h)
 source_group("Source Files" FILES ${CMAKE_CURRENT_BINARY_DIR}/sc_man_scanner.h common/engine/sc_man_scanner.re)
+
+if(ENABLE_ARCHIPELAGO)
+    source_group("Archipelago\\Core" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/core/.+")
+    source_group("Archipelago\\Game" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/game/.+")
+    source_group("Archipelago\\UI" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/ui/.+")
+    source_group("Archipelago\\Dependencies" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/.+")
+endif()
