@@ -1,0 +1,76 @@
+﻿# Add this to src\CMakeLists.txt BEFORE the line "set( PCH_SOURCES"
+
+# =============================================================================
+# Archipelago Integration
+# =============================================================================
+if(ENABLE_ARCHIPELAGO)
+    message(STATUS "Adding Archipelago support to Selaco...")
+    
+    # Add Archipelago include directories
+    include_directories(
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/asio/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/websocketpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/json/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/valijson/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/wswrap/include
+    )
+    
+    # Archipelago-specific definitions
+    add_definitions(-DARCHIPELAGO_ENABLED=1)
+    add_definitions(-DASIO_STANDALONE=1)
+    
+    # Platform-specific configurations
+    if(WIN32)
+        add_definitions(-D_WIN32_WINNT=0x0601)
+        add_definitions(-DWIN32_LEAN_AND_MEAN)
+        add_definitions(-DNOMINMAX)
+    endif()
+    
+    message(STATUS "[OK] Archipelago include paths configured")
+endif()
+
+# Then add this RIGHT BEFORE "set (PCH_SOURCES" line:
+
+if(ENABLE_ARCHIPELAGO)
+    # Archipelago source files to be added to PCH_SOURCES
+    set(ARCHIPELAGO_PCH_SOURCES
+        archipelago/core/ap_manager.cpp
+        archipelago/core/ap_network.cpp
+        archipelago/core/ap_protocol.cpp
+        archipelago/core/ap_state.cpp
+        archipelago/game/selaco_integration.cpp
+        archipelago/ui/ap_overlay.cpp
+    )
+endif()
+
+# Then MODIFY the existing "set (PCH_SOURCES" line to include Archipelago sources:
+# Change from:
+#   set (PCH_SOURCES
+# To:
+#   set (PCH_SOURCES
+#       ${ARCHIPELAGO_PCH_SOURCES}
+
+# Finally, add this AFTER "target_link_libraries( zdoom ${PROJECT_LIBRARIES} lzma ${ZMUSIC_LIBRARIES} )"
+
+if(ENABLE_ARCHIPELAGO)
+    # Link additional libraries for Archipelago
+    if(WIN32)
+        target_link_libraries(zdoom ws2_32 crypt32)
+    else()
+        find_package(OpenSSL REQUIRED)
+        find_package(Threads REQUIRED)
+        target_link_libraries(zdoom ${OPENSSL_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+    endif()
+    
+    message(STATUS "[OK] Archipelago libraries linked")
+endif()
+
+# And add this to the source_group section at the end:
+if(ENABLE_ARCHIPELAGO)
+    source_group("Archipelago\\Core" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/core/.+")
+    source_group("Archipelago\\Game" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/game/.+")
+    source_group("Archipelago\\UI" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/ui/.+")
+    source_group("Archipelago\\Dependencies" REGULAR_EXPRESSION "^${CMAKE_CURRENT_SOURCE_DIR}/archipelago/dependencies/.+")
+endif()
